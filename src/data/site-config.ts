@@ -77,11 +77,6 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi,',
-        text: "I'm **Elang Segara**, a Software Engineer at <a href='https://stockbit.com'>Stockbit</a>. Assigned to Product Quality Team handling end-to-end testing for web, mobile and API, also creating gRPC Automation Framework. Currently building <a href='https://github.com/valida-team/valida'>Valida</a>, an automated API testing using OpenAPI Specification file.",
-        // image: {
-        //     src: '/hero.jpeg',
-        //     alt: 'A person sitting at a desk in front of a computer'
-        // },
         actions: [
             {
                 text: 'Get in Touch',
@@ -89,11 +84,6 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    // subscribe: {
-    //     title: 'Subscribe to Dante Newsletter',
-    //     text: 'One update per week. All the latest posts directly in your inbox.',
-    //     formUrl: '#'
-    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };
