@@ -1,14 +1,18 @@
 ---
-title: Get in touch
+title: Get in Touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Reach out via email or LinkedIn. I’d love to hear from you.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+Thank you for your interest in connecting.
 
-_Email:_
-Feel free to drop me an email at [elangbayu17@gmail.com](mailto:elangbayu17@gmail.com), and I'll do my best to respond as soon as possible.
+Whether you have a question, collaboration opportunity, feedback, or simply want to start a conversation — I’d be happy to hear from you. You can reach me through the following channels:
 
-_Social Media:_
-Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/elangbayu).
+**📧 Email**  
+For direct inquiries, feel free to email me at [elangbayu17@gmail.com](mailto:elangbayu17@gmail.com). I aim to respond promptly to all messages.
+
+**🔗 LinkedIn**  
+Let’s connect professionally on [LinkedIn](https://www.linkedin.com/in/elangbayu). I’m always open to expanding my network and discussing ideas.
+
+Looking forward to hearing from you!
