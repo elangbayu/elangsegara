@@ -16,7 +16,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
-    <Hero />
+    <Hero title={siteConfig.hero?.title} image={siteConfig.hero?.image} text={siteConfig.hero?.text} actions={siteConfig.hero?.actions} />
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
