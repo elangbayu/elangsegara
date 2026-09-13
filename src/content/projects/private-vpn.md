@@ -233,9 +233,7 @@ It should show your Elastic IP and the country your server is in. If it shows yo
 
 You only pay for the server while it's running, so switch it off when you're not using it. The Elastic IP stays attached, so your address is exactly the same when you come back.
 
-**From a computer:** in the ECS console, find your instance, click **Stop**. Click **Start** when you want it back.
-
-**From your phone:** install the **Alibaba Cloud** app, sign in, search for ECS, and you'll find the same Start and Stop buttons on your instance.
+In the ECS console, find your instance and click **Stop**. Click **Start** when you want it back.
 
 When you start it again, wait about 30 seconds before connecting — the server needs a moment to boot up. The VPN starts automatically, so there's nothing to reconfigure, ever.
 
@@ -243,7 +241,7 @@ When you start it again, wait about 30 seconds before connecting — the server 
 
 ## Optional: a one-tap switch for your phone
 
-Opening the Alibaba Cloud app every time gets tedious. This section adds two buttons to your iPhone's Home Screen:
+Signing into the console every time gets tedious. This section adds two buttons to your iPhone's Home Screen:
 
 - **VPN On** — starts the server, waits for it to boot, connects the VPN
 - **VPN Off** — disconnects the VPN, stops the server
@@ -470,12 +468,6 @@ qrencode -t ansiutf8 < /etc/wireguard/laptop.conf
 For a third device, repeat it but change `laptop` to another name and `10.8.0.3` to `10.8.0.4`, and so on.
 
 > If you've reconnected to the terminal since Step 7, set `EIP=` to your address again first, otherwise the configuration will come out with a blank address.
-
-## What about TVs?
-
-Smart TVs are the awkward case. Google TV and Android TV don't offer the WireGuard app in their store, and most have no camera to scan a QR code.
-
-The easier solution is to set up WireGuard on your **router**, or on a small travel router. Everything connected to that router's Wi-Fi then goes through the VPN automatically, including the TV, with nothing to install on individual devices. Travel routers that support WireGuard cost around $30 to $60.
 
 ## Troubleshooting
 
